@@ -101,3 +101,17 @@
     transform: translate(50%, 0) scale(1.1);
 }
 
+@media only screen and (max-width: 600px){
+    .create-btn {
+        display:flex;
+        justify-content: start;
+        margin-top: 20px;
+        margin-left: 0;
+        padding: 0.8em 1em;
+        display: flex;
+    }
+
+    .btnPos{
+        margin-left: -900px;
+    }
+}
