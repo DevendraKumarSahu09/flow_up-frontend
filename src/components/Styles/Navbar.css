@@ -119,3 +119,37 @@ body{
     border: 0.1rem solid ;
     border-radius: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .nav-comp {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-link,
+    .btn-nav {
+      margin: 5px 0;
+    }
+  
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-item {
+      padding: 5px 0;
+    }
+  
+    .btn {
+      margin-right: 0;
+    }
+  
+    .nav-uname {
+      margin: 5px 0;
+    }
+  
+    .navbar-brand {
+      margin: 10px 0;
+    }
+  }
