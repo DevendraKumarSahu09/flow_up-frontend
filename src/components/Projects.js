@@ -41,7 +41,7 @@ const Projects = (props) => {
     <>
       <div>
         <h2 className="pro-heading">All projects you are involved in</h2>
-        <div className="d-flex justify-content-end">
+        <div className="btnPos">
           <button type="button" className="create-btn" onClick={routeChange}>
           <BiAddToQueue className="createIcon"/><span>Create Project</span>
           </button>
